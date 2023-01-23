@@ -3,7 +3,7 @@ clear all;
 close all;
 
 % Robot parameters
-robotPose = [2,3,deg2rad(45)];
+robotPose = [2;3;deg2rad(45)];
 
 % Populate wheel velocities vector
 vl_mps = 0.7;
